@@ -15,7 +15,7 @@ function LeftMenu() {
             <FaSpotify />
           </i>
 
-          <h2>ListenUp :)</h2>
+          <h2>ListenUp</h2>
         </div>
         <i>
           <FaEllipsisH />
@@ -30,7 +30,7 @@ function LeftMenu() {
       </div>
 
       
-      <Menu title={"Akshat"} menuObject={MenuList}/>  {/*Prop, From MenuList the objcts are being passed and refered here*/}
+      <Menu title={"Menu"} menuObject={MenuList}/>  {/*Prop, From MenuList the objcts are being passed and refered here*/}
 
         <MenuPlayList/>  
 

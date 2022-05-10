@@ -1,6 +1,5 @@
 import React from "react";
 import artist from "../artist.jpg";
-// import check from "../img/check.png";
 import { FaEllipsisH, FaHeadphones, FaCheck } from "react-icons/fa";
 function Banner() {
   return (
@@ -21,7 +20,7 @@ function Banner() {
           <div className="left">
             <div className="name">
               <h2>Palindrome</h2>
-              {/* <img src={check} alt="" /> */}
+             
             </div>
 
             <p>

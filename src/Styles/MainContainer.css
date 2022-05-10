@@ -8,7 +8,7 @@
   }
   
   .Banner {
-    height: 300px;
+    height: 270px;
     position: relative;
   }
   
@@ -137,7 +137,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
+    padding: 15px 25px 10px 0;
     background: #2c2c2c;
   }
   
@@ -148,7 +148,7 @@
   
   .menuList ul li {
     list-style: none;
-    margin: 0 25px;
+    margin: 0 20px;
     position: relative;
   }
   
@@ -197,11 +197,13 @@
   
   .AudioList {
     padding: 10px 30px;
+    width: 90%;
   }
   
   .AudioList .title {
     font-size: 18px;
     color: #f1f1f1;
+    margin: 8px 0;
   }
   
   .AudioList .title span {
@@ -229,7 +231,7 @@
   }
   
   .AudioList .songs.active,
-  .AudioList .songs.active .song .section .songName .songSpan {
+  .AudioList .songs.active .song .section .songName .spanArtist {
     color: #f1f1f1 !important;
   }
   
@@ -240,9 +242,11 @@
   .AudioList .songs .song {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 110%;
+    padding: 0 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 5px;
+    cursor: pointer;
   }
   
   .AudioList .songs .song .imgBox {
@@ -298,10 +302,15 @@
   }
   
   .AudioList .songs:hover,
-  .AudioList .songs:hover .song .section .songName .songSpan {
+  .AudioList .songs:hover .song .section .songName .spanArtist {
     color: #f1f1f1;
     transition: all 0.3s;
     cursor: pointer;
+  }
+
+  .song .section .hits .hit i,
+  .song .section .hits .duration i{
+    margin-right: 5px;
   }
   
   .AudioList .songs:hover .song .imgBox img {

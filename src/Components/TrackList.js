@@ -7,13 +7,7 @@ import { FaDesktop } from "react-icons/fa";
 function TrackList({ trackName, artistName }) {
   return (
     <div className="trackList">
-      <div className="top">
-        {/* <img src={Track} /> */}
-        <p>
-          {trackName} <span>{artistName}</span>
-        </p>
-      </div>
-
+      
       <div className="bottom">
         <i>
           <BsFillVolumeUpFill />
