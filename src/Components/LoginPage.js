@@ -24,6 +24,7 @@ const h2Style = {
 
 const checkStyle = {
   textAlign: "Left",
+  fontSize: "15px",
 }
 
 const btnstyle = {
@@ -36,6 +37,8 @@ const btnstyle = {
   textTransform: "uppercase",
   letterSpacing: "5px",
   border: "None",
+  textDecoration: "none",
+  color: "black",
 }
 
 const inStyle = {
@@ -59,9 +62,9 @@ function LoginPage() {
     <Form.Control type="password" placeholder="Password" style={inStyle}/>
   </Form.Group>
   <Form.Group className="mb-3" controlId="formBasicCheckbox" style={checkStyle}>
-    <Form.Check type="checkbox" label="Check me out" />
+    <Form.Check type="checkbox" label="Keep Logged in" />
   </Form.Group>
-  <a className='loginBtn' href='http://localhost:3000/listnup'><button style={btnstyle}>Login</button></a>
+  <a className='loginBtn' href='http://localhost:3000/listnup' style={btnstyle}>Login</a>
 </div>
 
 </Form>
