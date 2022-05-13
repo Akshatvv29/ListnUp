@@ -14,9 +14,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(background.jpg) no-repeat center;
+    background: url(artist.jpg) no-repeat center;
     background-size: cover;
     /* filter: grayscale(100); */
     z-index: -1;
     /* background-color: black; */
+
 }

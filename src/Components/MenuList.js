@@ -33,6 +33,7 @@ const MenuList = [
     icon: <FaPodcast />,
     name: "Podcasts",
   },
+  
 ];
 
 export { MenuList };
